@@ -685,6 +685,11 @@ exemples sont les _docstrings_ `Python` ou la documentation `Roxygen`
 
 - PEP 8, PEP 257
 
+Un choix peut être fait pour les docstrings avec deux conventions concurrentes :
+    - PEP 257
+    - [numpydoc](https://numpydoc.readthedocs.io/en/latest/) le format privilégié par numpy. Numpy auquel on doit tant...
+
+Les docstrings peuvent également contenir des tests qui, en lien avec le module ['doctest'](https://docs.python.org/3/library/doctest.html#) de python peuvent être executés automatiquement.
 
 {{% /panel %}}
 
@@ -835,6 +840,12 @@ effrayer l'utilisateur avec des croix rouges partout)
 
 {{< panelset class="nommage" >}}
 {{% panel name="Python :snake:" %}}
+
+Deux outils.librairies peuvent faciliter l'usage des bonnes pratiques en python : 
+    - [`black`](https://black.readthedocs.io/en/stable/) propose de formater votre code, sans compromis
+    - [`flake8`](https://flake8.pycqa.org/en/latest/) analyse également le style de votre code.
+
+Ces modules sont intégrés dans certains éditeurs. 
 
 
 {{% /panel %}}
